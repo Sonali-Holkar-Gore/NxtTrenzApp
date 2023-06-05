@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.image {
+  height: 200px;
+  width: 180px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    height: 260px;
+    width: 230px;
+  }
+}
